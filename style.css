@@ -1,0 +1,212 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: helvetica;
+  font-size: 15px;
+  line-height: 20px;
+  color: #101518;
+  background-color: #f4f4f4;
+}
+
+.ancho{
+  max-width: 1200px;
+  margin: auto;
+}
+
+.centro{
+  text-align: center;
+}
+
+.negritas{
+  font-weight: bold;
+}
+
+.margen{
+  padding: 15px;
+}
+
+.Red{
+  color: red;
+}
+
+.rojo{
+  color: #5d0201;
+}
+
+.dorado{
+  color: #cc9900;
+}
+
+.amarillo{
+  color: #fee942;
+}
+
+.negro{
+  color: #101518;
+}
+
+.cont_logo{
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 30px;
+}
+
+.cont_formulario input [type="radio"]{
+  vertical-align: middle;
+}
+
+#nombre:focus, #email:focus{
+  outline: 3px #ccc solid;
+  outline-offset: 4px;
+}
+
+.meses{
+  padding-right: 100px;
+}
+
+.meses{
+  padding-right: 50px;
+}
+
+label{
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.cont_formulario{
+  display: inline-block;
+  vertical-align: middle;
+  width: 80%;
+  margin-left: 7%;
+  background-color: #ffffff;
+  font-size: 20px;
+}
+
+.letra{
+  font-size: 20px;
+}
+
+.btn_enviar{
+  padding: 3px 30px;
+  margin-left: 10px;
+  border-radius: 5px;
+  border: none;
+  color: #f4f4f4;
+  background-color: #cc9900;
+  font-size: 20px;
+}
+
+.menu a{
+  padding: 26px;
+  background-color: #ffffff;
+  text-decoration: none;
+  color: #101518;
+  font-size: 25px;
+}
+
+.menu a:hover{
+  background-color: #5d0201;
+  color: #f4f4f4;
+}
+
+.menu img{
+  width: 100%;
+  object-fit: cover;
+}
+
+.tarjeta{
+  padding: 10px;
+  margin-right: 10px;
+  display: inline-block;
+  vertical-align: top;
+  width: 32.2%;
+}
+
+.tarjeta h2, .tarjeta img{
+  display: inline-block;
+  vertical-align: middle;
+  margin-bottom: 5px;
+}
+
+.imagen1 img{
+  width: 100%;
+  object-fit: cover;
+}
+
+.Egresado{
+  font-family: impact;
+  font-weight: 500;
+}
+
+.cont_perfil{
+  display: inline-block;
+  vertical-align: top;
+  width: 69%;
+}
+
+.cont_perfil img{
+  vertical-align: middle;
+}
+
+.cont_rojo{
+  display: inline-block;
+  vertical-align: top;
+  width: 30%;
+  border-radius: 10px;
+  background-color: #5d0201;
+  color: #f4f4f4;
+}
+
+.btn_vermas{
+  background-color: #cc9900;
+  color: #101518;
+  padding: 15px;
+  width: 30%;
+  border-radius: 10px;
+  margin: auto;
+}
+
+.cont_perfil img{
+  vertical-align: top;
+}
+
+.cont_perfil p{
+  display: inline-block;
+  width: 80%;
+  vertical-align: middle;
+  margin-left: 10px;
+}
+
+.fondo{
+  background-color: #101518;
+  color: #f4f4f4;
+}
+
+.cont_contacto{
+  display: inline-block;
+  width: 33%;
+  vertical-align: top;
+  text-align: left;
+}
+
+.cont_mapa{
+  display: inline-block;
+  vertical-align: middle;
+  width: 33%;
+}
+
+.cont_mapa iframe{
+  width: 400px;
+  height: 300px;
+}
+
+.cont_final{
+  display: inline-block;
+  vertical-align: middle;
+  width: 28%;
+}
+
